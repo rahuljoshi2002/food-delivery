@@ -4,7 +4,7 @@ import { assets } from '../../assets/assets'
 import { Link } from 'react-router-dom'
 
 const Navbar = ({setShowLogin}) => {
-    const [menu, setMenu] = useState("Menu")
+    const [ menu, setMenu] = useState("Menu")
 
     return (
         
